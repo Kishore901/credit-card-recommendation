@@ -1,0 +1,56 @@
+const shoppingBills = [
+  {
+    id: 1,
+    name: "Citibank Citi Cash Back Credit Card",
+    priority: 6,
+    benefits: [
+      "5% cashback on all movie ticket purchases, subject to a maximum cap of INR 100 per month",
+      "5% cashback on all utility bill payments paid through Citibank online bill pay",
+      "0.5% cash back on all other spends",
+    ],
+    minAge: 21,
+    maxAge: 70,
+    income: 15000,
+    cScore: 700,
+    joiningFee: 500,
+    renewalFee: 500,
+    link: "https://www.wishfin.com/citibank-citi-cash-back-credit-card/",
+    img: "https://cardinsider.com/wp-content/uploads/2021/07/Citi-Cash-Back-Credit-Card.png",
+  },
+  {
+    id: 2,
+    name: "Axis Bank Ace Credit Card",
+    priority: 6,
+    benefits: [
+      "Get a Cashback of 5% on bill payment of the electricity bills, gas bills, DTH bills, and other utility bills on Google Pay through this credit card.",
+      "There is a Cashback of 2% on all other spendings through this credit card",
+    ],
+    minAge: 21,
+    maxAge: 70,
+    income: 15000,
+    cScore: 700,
+    joiningFee: 400,
+    renewalFee: 4000,
+    link: "https://www.wishfin.com/axis-bank-ace-credit-card/",
+    img: "https://www.cardexpert.in/wp-content/uploads/2020/10/axis-bank-ace-credit-card-1.jpg",
+  },
+  {
+    id: 3,
+    name: "SBI Card PRIME",
+    priority: 6,
+    benefits: [
+      "Get a welcome e-gift worth ₹3,000 from any of these brands – Marks and Spencer, Yatra.com, Shopper Stop, Bata/Hush Puppies and Pantaloons",
+      "Earn 20 reward points on every ₹100 spent on standing instructions of utility bill payments",
+    ],
+    minAge: 21,
+    maxAge: 70,
+    income: 15000,
+    cScore: 700,
+    joiningFee: 2999,
+    renewalFee: 2999,
+    link: "https://www.wishfin.com/sbi-card-prime/",
+    img: "https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/card-faces/sbi-prime-cardface.png",
+  },
+];
+
+module.exports = shoppingBills;

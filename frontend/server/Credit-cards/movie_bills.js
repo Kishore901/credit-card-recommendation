@@ -1,0 +1,55 @@
+const movieBills = [
+  {
+    id: 1,
+    name: "SBI Card Prime",
+    priority: 5,
+    benefits: [
+      "20 Reward Points per Rs. 100 spent on standing instructions of Utility Bills payments",
+      "10 reward points per Rs. 100 spent on dining, groceries, departmental stores, and movies",
+    ],
+    MinAge: 21,
+    MaxAge: 70,
+    joiningFee: 3000,
+    renewalFee: 3000,
+    income: 75000,
+    cScore: 750,
+    link: "https://www.sbicard.com/en/personal/credit-cards/rewards/sbi-card-prime.page",
+    img: "https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/card-faces/sbi-prime-cardface.png",
+  },
+  {
+    id: 2,
+    name: "HDFC MoneyBack Credit Card",
+    priority: 5,
+    benefits: [
+      "Earn 2 Reward Points on every Rs 150 spent.",
+      "Earn 2X Reward Points i.e. 4 Reward Points on every Rs. 150 spent online10 reward points per Rs. 100 spent on dining, groceries, departmental stores, and movies.",
+    ],
+    MinAge: 21,
+    MaxAge: 65,
+    joiningFee: 500,
+    renewalFee: 500,
+    income: 25000,
+    cScore: 700,
+    link: "https://www.hdfcbank.com/personal/pay/cards/credit-cards/money-back",
+    img: "https://www.sbicard.com/sbi-card-en/assets/media/images/personal/credit-cards/rewards/card-faces/sbi-prime-cardface.png",
+  },
+  {
+    id: 3,
+    name: "Citi Cashback Credit Card",
+    priority: 5,
+    benefits: [
+      "Cardholders can procure a cashback of 5% on all of their utility bill payments",
+      "Earn 2X Reward Points i.e. 4 Reward Points on every Rs. 150 spent online, 10 reward points per Rs. 100 spent on dining, groceries, departmental stores, and movies.",
+    ],
+    MinAge: 21,
+    MaxAge: 60,
+    income: 20000,
+    cScore: 750,
+    joiningFee: 500,
+    renewalFee: 500,
+    link: "https://www.online.citibank.co.in/credit-card/cash-back/citi-cash-back-credit-card",
+    img: "https://static.paisabazaar.com/components/images/credit_card/small_images/50.png",
+  },
+];
+
+module.exports = movieBills;

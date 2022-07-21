@@ -1,0 +1,8 @@
+## Run this to create a virtual environment
+python -m venv .venv
+
+## To activate venv on VS Code, open a new terminal, if it doesnt start automatically there, type below command in terminal
+./.venv/Scripts/activate
+
+## To deactivate
+deactivate

@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap");
+body {
+  background-color: #f9fcff;
+  background-image: linear-gradient(147deg, #f9fcff 0%, #cde6ff 74%);
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+.Home-page-text {
+  font-weight: 500;
+}
+
+.header {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+}
+
+.upload-button {
+  font-weight: 600;
+  border: 2px solid black;
+}
+
+.features-section {
+  background-color: hsl(209, 100%, 8%);
+}
+
+.feature-images-1 {
+  width: 30rem;
+}
+.feature-images-2,
+.feature-images-3 {
+  width: 20rem;
+  margin-left: 5rem;
+  height: 16rem;
+}
+.feature-inner-section {
+  width: 30vw;
+}
+
+.bankpdfbutton {
+  border: 2px solid black;
+}
+
+.upload-pdf-section {
+  height: 70vh;
+}
+
+.upload-pdf-button {
+  border: 2px solid black;
+}
+
+.cards {
+  background-color: #9fddec;
+  border: 1px solid #11c6f3;
+}
+
+.cards:hover {
+  border-color: #0090b4;
+}
+
+.chatbox {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.chatbox::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
